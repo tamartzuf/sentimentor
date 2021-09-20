@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Sentimentor</title>
+</head>
+<body>
+    <main>
+    <div id = "page">
+        <h1 >Sentimentor</h1>
+        <div class="check">
+            <textarea id="text" style="width: 100%; max-width: 100%; min-width: 100%; padding: 10px;" rows="10">
+            </textarea>
+            <button id="submit" style="padding: 10px;" onclick="hundleButtonClick()">
+                CLICK TO CHECK SENTIMENT
+            </button>
+
+        <div id="resp" style="
+                width: 100%;
+                max-width: 100%;
+                min-width: 100%;
+                margin-top: 20px;
+                font-size: 30px;">
+                <p>Type: <img class = "loading" src="images\loading.gif" hidden><span id="type"></span></p>
+                <p>Polarity: <img class = "loading" src="images\loading.gif" hidden><span id="polarity"></span></p>
+            <!-- <p style="display: grid;">HTTP Code<img class = "httpcode" src="https://bit.ly/2XwQxrz"></p>
+                <p id="type"></p>
+                <p id="polarity"></p>-->
+        </div>
+    </div>
+    </main>
+    <script src="main.js"defer>
+    </script>
+</body> 
+</html>

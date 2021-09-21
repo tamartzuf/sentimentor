@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://previews.123rf.com/images/oberart/oberart1604/oberart160400011/55735196-set-of-emoticons-set-of-emoji-smile-icons-isolated-illustration-on-white-background.jpg") ;
+    background-repeat: repeat;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 1em;
+  }
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #f2f2f2; 
+    background: #ad5d5d; 
+}
+p { 
+    color: #f2f2f2; 
+    background: #ad5d5d; 
+    font-size: 35px; 
+    line-height: 34px;
+    font-weight: 700;
+    margin: 0 5px 24px;
+    padding: 10px;
+    margin: 0 5px 24px;
+    font-family: 'Libre Baskerville', serif; }
+    
+ 
+    .loading{
+        height: 1em;
+    }
+
+    
